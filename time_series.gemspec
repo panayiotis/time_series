@@ -5,7 +5,7 @@ require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "time_series"
-  spec.version       = TimeSeries::VERSION
+  spec.version       = Time_Series::VERSION
   spec.authors       = ["panos"]
   spec.email         = [""]
   spec.description   = "Timeseries library using Redis as a backend"
@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest"
 
   spec.add_dependency 'awesome_print'
-  spec.add_dependency 'active_support'
+  spec.add_dependency 'activesupport'
   spec.add_dependency 'redis'
   spec.add_dependency 'hiredis'
 
