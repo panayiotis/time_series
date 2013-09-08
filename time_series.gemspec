@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Time_Series::VERSION
   spec.authors       = ["panos"]
   spec.email         = [""]
-  spec.description   = "Timeseries library using Redis as a backend"
-  spec.summary       = "Timeseries library using Redis as a backend"
+  spec.description   = "Timeseries metrics store using Redis as a backend"
+  spec.summary       = "Timeseries metrics store using Redis as a backend"
   spec.homepage      = "https://github.com/panayiotis/time_series"
   spec.license       = "MIT"
 
