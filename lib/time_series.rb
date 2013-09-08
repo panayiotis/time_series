@@ -35,8 +35,8 @@ class TimeSeries < RedisConnection
       unless resolutions.include?(@resolution) #or @resolution.is_a?(Integer)
         raise ArgumentError.new("resolution can be either :year or :month or :day or :hour or :minute or :second")
       end  
-    elsif keys.empty? # default resolution is :second
-          @resolution = :second
+    elsif keys.empty? # default resolution is :minute
+          @resolution = :minute
     else # try to guess resolution from existing keys
       max_res = 0
       keys.each do |k|
