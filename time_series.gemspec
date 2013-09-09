@@ -6,8 +6,8 @@ require 'version'
 Gem::Specification.new do |spec|
   spec.name          = "time_series"
   spec.version       = Time_Series::VERSION
-  spec.authors       = ["panos"]
-  spec.email         = [""]
+  spec.author        = 'Panayiotis Vlantis'
+  spec.email         = 'p.vlantis@di.uoa.gr'
   spec.description   = "Timeseries metrics store using Redis as a backend"
   spec.summary       = "Timeseries metrics store using Redis as a backend"
   spec.homepage      = "https://github.com/panayiotis/time_series"
