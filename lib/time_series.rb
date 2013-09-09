@@ -2,6 +2,7 @@
 require 'bundler/setup'
 
 require 'active_support/core_ext/numeric/time.rb'
+require 'active_support/core_ext/date/calculations.rb'
 
 #require 'active_support/core_ext/time/calculations.rb'
 require_relative "version"
